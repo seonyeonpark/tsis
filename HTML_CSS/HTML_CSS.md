@@ -24,9 +24,12 @@
 
 https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드하여 설치
 
-### **JAVA_HOME 설정**
+### **Visual Studio Code 실행화면**
 
-VSCode>file>properences>Setting..> java.home 검색후 간편하게 세팅
+![Visual Studio Code run](./img/img2.png)
+
+1. 작업영역(workspace)
+작업파일 및 폴더 관리
 
 ```
 jdk 11 이하인 경우 지원하지 않는 문제가 있음
