@@ -64,38 +64,33 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 5. 하단 상태바에서 sftp 누르면 상태확인 가능
 
-## 2\. Java 실행환경 연동
+### **Git 업데이트 환경 설정**
+작성중
+<br/>
 
-```
-참고
-Java Project 생성(https://miaow-miaow.tistory.com/25)
-```
+## 2\. 코드 표준화
 
-### **SVN 소스 다운로드**
 
-형상관리를 위해 사용하는 시스템과의 연동을 위해 플러그인을 추가로 설치해야 함.
 
-![SVN_Extension.jpg](./img/SVN_Extension.jpg)
+### **prettier now(코드포맷)**
 
-1. `SVN` 플러그인을 설치  
-   설치 후 다음과 같은 에러메시지가 발생하는 경우, 로컬 PC에 SVN 설치 진행(svn이 설치되어있는 경우 4 단계로 이동)  
-   ![svn_fail.jpg](./img/svn_fail.jpg)
-2. 로컬 PC의 운영체제에 알맞는 파일 다운로드  
-   (TortoiseSVN 설치: http://subversion.apache.org/packages.html)
-   ![svn_download.jpg](./img/svn_download.jpg)
-3. 설치 시 command line client tools를 포함하도록 옵션 변경  
-   ![svn_install.jpg](./img/svn_install.jpg)
-4. 설치가 끝난 후 Visual Studio Code를 재실행 해 안내 메시지 출력 확인
-   ![svn_suc.jpg](./img/svn_suc.jpg)
+파일 저장 시 코드를 미리 정해진 규칙에 따라 정리함.
 
-5. Ctrl+Shift+p 사용 후 '>svn:checkout' 명령어를 사용
-   ![svn_checkout.jpg](./img/svn_cko.jpg)
+![prettier_Extension](./img/img9.png)
 
-6. 체크아웃 받을 폴더를 선택
-   ![svn_checkout_2.jpg](./img/svn_cko_2.JPG)
+1. Extension에서 prettier 검색하여 설치  
 
-7. 소스파일이 저장될 폴더 입력(생성용)
-   ![svn_checkout_3.jpg](./img/svn_cko_3.JPG)
+![prettier_Extension](./img/1mg10.png)
+2. setting.json파일을 열어 위 내용대로 설정
+   
+
+### **MDN 레퍼런스 확인**
+html태그에 커서를 올리면 해당 태그에 대한 정의와 mdn 레퍼런스 링크가 나오는데 해당 링크 클릭하면 mdn 웹사이트로 이동
+html 표준 및 적확한 태그 사용을 위해 유용한 기능 
+
+![MDN link](./img/1mg11.png)
+![MDN link](./img/1mg12.png)
+
 
 ### **JAR 파일 관리**
 
