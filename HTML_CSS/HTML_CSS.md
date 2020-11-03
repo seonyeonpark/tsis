@@ -20,9 +20,9 @@
 
 ### **Visual Studio Code 설치**
 
-![Visual Studio Code Install](./img/img1.png)
-
 https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드하여 설치
+
+![Visual Studio Code Install](./img/img1.png)
 
 ### **Live Server 플러그인 설치**
 
@@ -36,15 +36,33 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 2. Install 버튼 클릭하여 플러그인 설치 > 재시작
 
+![Live Server Plug-in install](./img/img4.png)
 
-```
-jdk 11 이하인 경우 지원하지 않는 문제가 있음
-→anguage support for Java(TM) by Red Hat에서  최소 지원 버전이 JDK 11
-→java.confirugation.runtimes 추가 설정이 필요함
-```
+3. 하단 상태바에 "Go Live" 버튼 클릭
 
-![java home runtime.jpg](./img/java_home_runtime.jpg)  
-<br>
+4. 브라우저에서 실시간으로 레이아웃 변경 확인 가능
+
+### **FTP 업데이트 환경 설정(SFTP)**
+
+- 별도의 FTP 프로그램 없이 Visual Studio 내에서 파일 저장과 동시에 FTP 업데이트 되는 플러그인 설치 및 연결
+
+![SFTP Plug-in install](./img/img5.png)
+
+1. extension메뉴에서 sftp검색
+
+2. Install 버튼 클릭하여 플러그인 설치
+
+![SFTP Plug-in install](./img/img6.png)
+
+3. 새로운 폴더 혹은 기존 프로젝트 폴더를 열어준 후 "F1"을 눌러 "sftp" 검색 후 "sftp:config"을 선택
+
+![SFTP Plug-in install](./img/img7.png)
+
+4. ".vscode" 폴더와 "sftp.json" 파일이 생성되면 서버 접속정보를 입력하고 저장
+
+![SFTP Plug-in install](./img/img8.png)
+
+5. 하단 상태바에서 sftp 누르면 상태확인 가능
 
 ## 2\. Java 실행환경 연동
 
