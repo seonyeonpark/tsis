@@ -36,7 +36,7 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 2. Install 버튼 클릭하여 플러그인 설치 > 재시작
 
-![Live Server Plug-in install](./img/img4.png)
+   ![Live Server Plug-in install](./img/img4.png)
 
 3. 하단 상태바에 "Go Live" 버튼 클릭
 
@@ -46,21 +46,21 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 - 별도의 FTP 프로그램 없이 Visual Studio 내에서 파일 저장과 동시에 FTP 업데이트 되는 플러그인 설치 및 연결
 
-![SFTP Plug-in install](./img/img5.png)
+   ![SFTP Plug-in install](./img/img5.png)
 
 1. extension메뉴에서 sftp검색
 
 2. Install 버튼 클릭하여 플러그인 설치
 
-![SFTP Plug-in install](./img/img6.png)
+   ![SFTP Plug-in install](./img/img6.png)
 
 3. 새로운 폴더 혹은 기존 프로젝트 폴더를 열어준 후 "F1"을 눌러 "sftp" 검색 후 "sftp:config"을 선택
 
-![SFTP Plug-in install](./img/img7.png)
+   ![SFTP Plug-in install](./img/img7.png)
 
 4. ".vscode" 폴더와 "sftp.json" 파일이 생성되면 서버 접속정보를 입력하고 저장
 
-![SFTP Plug-in install](./img/img8.png)
+   ![SFTP Plug-in install](./img/img8.png)
 
 5. 하단 상태바에서 sftp 누르면 상태확인 가능
 
@@ -68,32 +68,32 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 1. Github 가입 후 새로운 레파지토리 생성
 
-![create repository](./img/git1.png)
+   ![create repository](./img/git1.png)
 
 
 2. 새로 만들어진 레파지토리에 방문하여 code 버튼 클릭 후, 레파지토리 주소 복사
 
-![copy repository](./img/git2.png)
+   ![copy repository](./img/git2.png)
 
 
 3. Visual Studio 실행 후 새로운 폴더 생성
 
-![create new folder](./img/git3.png)
+   ![create new folder](./img/git3.png)
 
 
 4. 소스제어 메뉴에서 Initialize Repository 클릭(초기화)
 
-![initialize repository](./img/git4.png)
+   ![initialize repository](./img/git4.png)
 
 
 5. 현재 폴더에 있는 모든 파일과 폴더가 Changes 항목에 추가되고 Github에 반영하기전 Commit 진행(로컬에 반영)
 
-![commit](./img/git5.png)
+   ![commit](./img/git5.png)
 
 
 6. commit 버튼을 클릭하면 커밋메세지(반영내용) 입력하고 enter 
 
-![commit](./img/git7.png)
+   ![commit](./img/git7.png)
 
 
 7. Visual Studio code 실행하여 하단 터미널창 오픈
@@ -122,7 +122,7 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 10. Github에서 업로드된 파일을 확인할 수 있습니다.
 
-![complete](./img/git13.png)
+   ![complete](./img/git13.png)
 
 
 <br/>
@@ -135,11 +135,11 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 파일 저장 시 코드를 미리 정해진 규칙에 따라 정리함.
 
-![prettier_Extension](./img/img9.png)
+   ![prettier_Extension](./img/img9.png)
 
 1. Extension에서 prettier 검색하여 설치  
 
-![prettier_Extension](./img/img10.png)
+   ![prettier_Extension](./img/img10.png)
 
 2. setting.json파일을 열어 위 내용대로 설정
    
@@ -148,9 +148,9 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 - html태그에 커서를 올리면 해당 태그에 대한 정의와 mdn 레퍼런스 링크가 나오는데 해당 링크 클릭하면 mdn 웹사이트로 이동
 - html 표준 및 적확한 태그 사용을 위해 유용한 기능 
 
-![MDN link](./img/img11.png)
+   ![MDN link](./img/img11.png)
 
-![MDN link](./img/img12.png)
+   ![MDN link](./img/img12.png)
 
 
 ## 3\. 편리한 기능 
@@ -158,7 +158,7 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 -  vs code 기본 기능으로, HTML + CSS 코드를 짧은 축약어로 자동완성
 -  태그명(축약어)를 입력 후 tab 입력
 
-![emmet](./img/img13.png)  
+   ![emmet](./img/img13.png)  
 
 ```
 참고
@@ -172,7 +172,7 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 - 지원 언어 : HTML/PHP/JavaScript/JavaScript/React/Vue 등
 - Extension 에서 Intellisense for CSS name 검색하여 설치
 
-![Intellisense for CSS](./img/img13.png)
+   ![Intellisense for CSS](./img/img13.png)
 
 
 ### **auto rename(코드 자동 완성)**
@@ -180,7 +180,7 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 - HTML 태그 수정 시 여는 태그를 수정하면 닫는 태그 자동으로 수정
 - Extension 에서 auto rename검색하여 설치
 
-![auto rename](./img/img14.png)
+   ![auto rename](./img/img14.png)
 
 
 ### **CSS Peek(코드 네비게이션)**
@@ -190,6 +190,6 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 - Extension 에서 CSS Peek 검색하여 설치
 
 
-![CSS Peek](./img/img15.gif)
+   ![CSS Peek](./img/img15.gif)
 
 
