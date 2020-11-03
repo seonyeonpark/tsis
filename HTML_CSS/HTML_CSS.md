@@ -20,7 +20,7 @@
 
 ### **Visual Studio Code 설치**
 
-![Visual Studio Code Install](./img/img1.jpg)
+![Visual Studio Code Install](./img/img1.png)
 
 https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드하여 설치
 
