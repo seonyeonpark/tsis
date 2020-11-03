@@ -65,7 +65,66 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 5. 하단 상태바에서 sftp 누르면 상태확인 가능
 
 ### **Git 업데이트 환경 설정**
-작성중
+
+1. Github 가입 후 새로운 레파지토리 생성
+
+![create repository](./img/git1.png)
+
+
+2. 새로 만들어진 레파지토리에 방문하여 code 버튼 클릭 후, 레파지토리 주소 복사
+
+![copy repository](./img/git2.png)
+
+
+3. Visual Studio 실행 후 새로운 폴더 생성
+
+![create new folder](./img/git3.png)
+
+
+4. 소스제어 메뉴에서 Initialize Repository 클릭(초기화)
+
+![initialize repository](./img/git4.png)
+
+
+5. 현재 폴더에 있는 모든 파일과 폴더가 Changes 항목에 추가되고 Github에 반영하기전 Commit 진행(로컬에 반영)
+
+![commit](./img/git5.png)
+
+
+6. commit 버튼을 클릭하면 커밋메세지(반영내용) 입력하고 enter 
+
+![commit](./img/git7.png)
+
+
+7. Visual Studio code 실행하여 하단 터미널창 오픈
+
+2단계에서 복사해두었던 레파지토리 주소를 사용하여 다음 명령을 실행
+
+
+```
+git remote add orgin 레파지토리 주소
+```
+
+
+8. Github에 있는 내용을 로컬 저장소에 반영하기위해 터미널에 다음 명령을 실행
+
+
+```
+git pull orgin master --allow-unerlated-histories
+```
+
+
+9. Github에 코드를 업로드하기위해 터미널에 다음 명령을 실행
+
+```
+git push -u origin master
+```
+
+10. Github에서 업로드된 파일을 확인할 수 있습니다.
+
+![complete](./img/git13.png)
+
+
 <br/>
 
 ## 2\. 코드 표준화
@@ -129,6 +188,8 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 - HTML에 사용된 class나 ID 클릭하여 해당 CSS코드로 이동
 - 커서 이동하여 ctrl + click
 - Extension 에서 CSS Peek 검색하여 설치
+
+
 ![CSS Peek](./img/img15.gif)
 
 
