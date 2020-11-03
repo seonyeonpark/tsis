@@ -129,6 +129,6 @@ html 표준 및 적확한 태그 사용을 위해 유용한 기능
 - HTML에 사용된 class나 ID 클릭하여 해당 CSS코드로 이동
 - 커서 이동하여 ctrl + click
 - Extension 에서 CSS Peek 검색하여 설치
-![CSS Peek](./img/img15.png)
+![CSS Peek](./img/img15.gif)
 
 
