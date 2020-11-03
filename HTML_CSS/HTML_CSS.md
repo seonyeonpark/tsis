@@ -24,12 +24,18 @@
 
 https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드하여 설치
 
-### **Visual Studio Code 실행화면**
+### **Live Server 플러그인 설치**
 
-![Visual Studio Code run](./img/img2.png)
+- Live Server 는 서버 연동없이 작업중인 HTML/CSS 화면을 실시간으로 브라우저에 반영하여 보여주는 플러그인
+- 화면 레이아웃을 확인하며 작업하기에 편리함  
 
-1. 작업영역(workspace)
-작업파일 및 폴더 관리
+
+![Live Server Plug-in install](./img/img3.png)
+
+1. Vscode 실행하여 extension메뉴에서 live server 검색
+
+2. Install 버튼 클릭하여 플러그인 설치 > 재시작
+
 
 ```
 jdk 11 이하인 경우 지원하지 않는 문제가 있음
