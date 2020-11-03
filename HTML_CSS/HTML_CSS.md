@@ -98,27 +98,27 @@ https://code.visualstudio.com 에서 사용자 OS에 맞는 버전 다운로드�
 
 7. Visual Studio code 실행하여 하단 터미널창 오픈
 
-2단계에서 복사해두었던 레파지토리 주소를 사용하여 다음 명령을 실행
+   2단계에서 복사해두었던 레파지토리 주소를 사용하여 다음 명령을 실행
 
 
-```
-git remote add orgin 레파지토리 주소
-```
+   ```
+   git remote add orgin 레파지토리 주소
+   ```
 
 
 8. Github에 있는 내용을 로컬 저장소에 반영하기위해 터미널에 다음 명령을 실행
 
 
-```
-git pull orgin master --allow-unerlated-histories
-```
+   ```
+   git pull orgin master --allow-unerlated-histories
+   ```
 
 
 9. Github에 코드를 업로드하기위해 터미널에 다음 명령을 실행
 
-```
-git push -u origin master
-```
+   ```
+   git push -u origin master
+   ```
 
 10. Github에서 업로드된 파일을 확인할 수 있습니다.
 
